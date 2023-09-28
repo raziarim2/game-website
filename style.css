@@ -1,0 +1,272 @@
+
+nav {
+	display: flex;
+	justify-content: center;
+	gap: 340px;
+
+
+
+	
+}
+nav > ul
+{
+	display: flex;
+}
+nav li
+{
+	list-style: none;
+	margin-right: 30px;
+
+}
+nav li a{
+	text-decoration: none;
+	color:black;
+}
+.nav-big
+{
+	display: flex;
+
+
+	
+
+}
+.b-img{
+	padding: 5px;
+	width: 40px 10px;
+
+	
+}
+.nav-style
+{
+	font-size: 20px;
+	
+}
+.iconssw
+{
+	width: 15px;
+}
+.btn-prii
+{
+	
+	background: #EBE4D1;
+	border-radius: 10px;
+	color:black;
+	padding: 8px 20px;
+	
+}
+
+.btn-primary
+{
+	border-radius: 8px;
+	color:white;
+	font-size: 1.25;
+	background: gray;
+	padding: 5px 5px;
+}
+
+.banner-section
+{   
+     
+
+	display: flex;
+	justify-content: center;
+	background-color: #F1EFEF;
+	gap: 250px;
+	padding: 25px;
+	
+
+}
+.banner-img
+
+{   
+	
+	width: 365px;
+}
+.btn-pri{
+	border-radius: 17px;
+	color:white;
+	font-size: 1.26;
+	background: hotpink;
+	padding: 13px 23px;
+	
+}
+.btn-pris
+{
+	border-radius: 17px;
+	color:white;
+	font-size: 1.26;
+	background: blueviolet;
+	padding: 13px 23px;
+}
+
+
+
+.banner-section2
+{    
+	
+    display: flex;
+	justify-content: space-around;
+	padding: 30px 240px;
+	gap:120px;
+}
+.pera
+{
+	display: flex;
+}
+
+	.fea-txt
+{
+	font-size: 50px;
+
+}
+.banner-img2
+{   
+	
+	width: 425px;
+}
+.img-des
+{
+	padding: 30px 240px;
+}
+.img-desp
+{
+	text-align:center ;
+}
+
+.img-collection
+
+{
+	
+	display: flex;
+	width: 280px;
+	height: 250px;
+	justify-content: space-between;
+	gap:10px;
+	padding: 20px;
+}
+.para-desp
+{
+	display: flex;
+	gap: 50px;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.banner1-section
+{   
+	
+	
+	display: flex;
+
+	padding: 30px 240px;
+	gap:50px;
+
+
+}
+.carrer-desp
+{   
+	
+	display: flex;
+	background-color: deeppink;
+     gap: 5px;
+	
+
+	
+}
+.ca
+{
+	color: white;
+}
+.career-right
+{
+	padding: 30px 240px;
+	
+}
+.career-left
+{
+	padding: 30px 240px;
+}
+
+.imge-career
+{
+	width: 460px;
+}
+.see-button
+{
+	border-radius: 8px;
+	color:hotpink;
+	font-size: 1.26;
+	background: white;
+	padding: 10px 20px;
+
+}
+.imges
+{   
+	display: flex;
+	padding: 23px 240px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.imgess
+{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding: 25px;
+}
+.circle
+{
+	border-radius: 40px;
+}
+.gameshop
+	{  
+	   color: white;
+	   text-align: center;
+	   padding: 50px;
+      background-color: #0B0223;
+     
+      
+
+	}
+
+.policy
+{
+	display: flex;
+	justify-content: center;
+	gap: 35px;
+}
+
+.icons
+{
+	width: 30px;
+}
+.iconss
+{
+	width: 30px;
+	color: white;
+	
+}
+.icon
+{   
+
+	display: flex;
+	
+	justify-content: center;
+	gap: 35px;
+
+
+}
+
+	@media screen and (max-width:576px)
+{
+	heade{
+		padding:-5px;
+	}
+nav{
+flex-direction:column;
+}
+
+.b-img{
+	flex-direction: column;
+}
+
+}
